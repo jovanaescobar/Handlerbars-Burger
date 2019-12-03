@@ -1,0 +1,85 @@
+html {
+    background-image: url("http://getwallpapers.com/wallpaper/full/e/1/d/546189.jpg");
+}
+
+h1 {
+    text-align: center; font-weight: bolder;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+   color: rgb(255, 255, 255);
+   font-size: 22px;
+   margin: 30px;
+   font-weight: bold;
+   -webkit-text-stroke-width: 1px; 
+   -webkit-text-stroke-color: black;
+}
+
+body {
+   width: 70%;
+   margin: 0 auto; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: rgb(114, 75, 75);
+   margin-top: 70px;
+   margin-bottom: 80px;
+
+}
+.availableBurgers {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(19, 177, 19);
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background-color: BLACK;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color:BLACK;
+}
+
+.availableBurgers:hover {
+    background-color: green;
+}
+
+.devour {
+    background-color: rgb(230, 8, 8);   
+    font-size: 13PX;
+  
+}
+
+.burgersEaten {
+   font-family: Verdana, Geneva, Tahoma, sans-serif; color: aliceblue;
+   font-size: 15px;
+   text-align: center;
+   font-weight: bold;
+   width: 100%;
+   margin: 5px;
+   padding: 10px;
+   background-color: black;
+   -webkit-text-stroke-width: 1px; 
+   -webkit-text-stroke-color: rgb(219, 189, 19);
+}
+.button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; color: white;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(230, 8, 8);
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+}
+.button:hover {
+    background-color: green;
+}
